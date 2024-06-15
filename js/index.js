@@ -28,6 +28,7 @@ function konversi(){
     if(desc1.style.display === 'flex' && desc2.style.display === 'flex'){
         if(isNaN(inputNilai)){
             showhasil.value = " ";
+            cara.value = " ";
             inputKosong.textContent = "Inputan tidak boleh kosong";
         }
         else{
@@ -39,6 +40,7 @@ function konversi(){
     else{
         if(isNaN(inputNilai)){
             showhasil.value = " ";
+            cara.value = " ";
             inputKosong.textContent = "Inputan tidak boleh kosong";
         }
         else{
